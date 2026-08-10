@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Environment and local data
+.env
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/vector/*
+!data/vector/.gitkeep
+data/uploads/*
+!data/uploads/.gitkeep
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/chroma/
+
+# Node.js
+frontend/node_modules/
+frontend/dist/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
